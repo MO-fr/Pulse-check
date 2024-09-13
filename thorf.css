@@ -1,0 +1,47 @@
+/* Container for Image */
+.containerthorf {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    width: 19%; /* Container width */
+    box-shadow: 0 20px 8px rgba(45, 45, 45, 0.5);
+    background-color: #840fd3; /* Background color */
+    padding: 20px; /* Adds padding inside the container */
+    margin-left: 13px; /* Adjusts the container's position */
+    border-radius: 20%; /* Rounds the corners of the container */
+}
+
+img {
+    height: 400px;
+    width: 260px;
+    border-radius: 60px;
+}
+
+.par-container {
+    position: relative; /* This ensures the vertical text is positioned relative to this container */
+    width: 479px; /* Set the width of the container */
+    height: 600px; /* Set the height of the container */
+    margin-left: 500px; /* Optional: adjust as needed */
+    margin-top: -480px; /* Optional: adjust as needed */
+    background-color: #840fd3; /* Set background color for the container */
+    border: 1px solid #000; /* Add a border to the container */
+    border-radius: 20%;
+    box-shadow:0 20px 8px rgba(45, 45, 45, 0.5);
+}
+
+.vertical-text {
+    writing-mode: vertical-rl;
+    color: rgb(209, 220, 230);
+    text-align: center;
+    font-size: 18px;
+    position: absolute;
+    top: 50%; /* Center vertically, adjust as needed */
+    left: 45.5%; /* Center horizontally */
+    transform: translate(-50%, -50%) rotate(270deg); /* Center and rotate text */
+    line-height: 1.5;
+}
+
+
+
+
+

@@ -1,0 +1,49 @@
+/* Container for Image 1 */
+.container1 {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    width: 19%; /* Container width */
+    box-shadow: 0 20px 8px rgba(45, 45, 45, 0.5);
+    background-color: #da1313; /* Background color for Image 1 container */
+    padding: 20px; /* Adds padding inside the container */
+    margin-left: 13px; /* Adjusts the container's position */
+    border-radius: 20%; /* Rounds the corners of the container */
+    
+}
+
+/* Container for Image 2 */
+.container2 {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    margin: -400px;
+    width: 19%; /* Container width */
+    background-color: #b3be47de; /* Background color for Image 2 container */
+    padding: 20px; /* Adds padding inside the container */
+    margin-left: 460px; /* Adjusts the container's position */
+    border-radius: 20%; /* Rounds the corners of the container */
+    box-shadow: 0 24px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Container for Image 3 */
+.container3 {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    margin: -480px;
+    width: 19%; /* Container width */
+    background-color: #000000; /* Background color for Image 3 container */
+    padding: 20px; /* Adds padding inside the container */
+    box-shadow: 0 30px 8px rgba(0, 0, 0, 0.5);
+    margin-left: 930px; /* Adjusts the container's position */
+    border-radius: 20%; /* Rounds the corners of the container */
+}
+
+
+div img {
+    height: 400px;
+    width: 260px;
+    border-radius: 60px; 
+    display: inline;
+}
