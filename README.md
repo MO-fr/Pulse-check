@@ -1,8 +1,50 @@
-# Pulse-check
-Problem Statement
-Keeping pictures in a picture book is a problem for many users. Sometimes family members remove pictures or borrow the book indefinitely. Some pictures get ruined over time and start to fall apart. 
-Project Scope
-Create the page structure for an image user interface that uses figure and figure caption for each image. Use HTML elements that are the standard elements for creating images in HTML pages. Add attributes to your page that enforce images to be the same size for a consistent look and feel. Center the pictures horizontally on the page. 
+# 🎨 Greatest Manga Showcase Website
 
-Download three images from the web. Ensure the image uses a Creative Commons license (CC). Add the HTML to the page that will ensure all the images are the same height and width. Add a clickable link that will take the user out to a webpage. It can link to any page you want or it can link back to the source page the image was copied from online. Ensure you add all the attributes for the image tag. 
+This project showcases three iconic works of fiction that I and many others adore. This showcase has visually themed containers, images, and links to dedicated pages. It's a perfect blend of **manga** and **anime** recommendations wrapped in a vibrant design.
 
+## 🌟 Features
+
+- **Responsive Design**: Built using `flexbox` for smooth alignment and responsive layouts.
+- **Custom Containers**: Each image is housed in a styled box with:
+  - Unique background colors that complement the theme of the fiction.
+  - Rounded corners and shadows for a polished aesthetic.
+- **Vertical Text**: A fun vertical text layout for descriptions on individual pages.
+- **Embedded Links**: Links to videos or other relevant media to enhance the experience.
+
+## 📁 Project Structure
+
+- **HTML Files**:
+  - `index.html`: The main page featuring three fictional works with images and links to individual pages.
+  - `ippo.html`, `thorf.html`, `guts.html`: Dedicated pages for each fictional work, with a brief description and external video links.
+
+- **CSS Files**:
+  - `pulse.css`: Styles the main page and individual content pages, including background colors, flexbox-based layout, and more.
+
+## 🎬 Demo Preview
+
+- **Main Page**: 
+  The page displays three works of fiction (manga/anime), each in its own uniquely styled container with a clickable image.
+
+- **Individual Pages**:
+  Each fiction has its own dedicated page that offers a vertical text description and a link to a video.
+
+## 💡 Technologies Used
+
+- **HTML5**: For structuring the webpage.
+- **CSS3**: To style the containers, layout, and vertical text.
+
+## 🛠️ How to Run
+
+1. Clone the repository using the following command:
+
+    ```bash
+    git clone https://github.com/your-username/fiction-showcase.git
+    ```
+
+2. Open the `index.html` file in your browser.
+
+3. Explore the links and check out the individual pages by clicking the images.
+
+## 📝 Credits
+
+- All images and videos are linked from external sources like **Pinterest** and **YouTube**.
