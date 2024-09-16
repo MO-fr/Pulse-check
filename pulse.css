@@ -11,6 +11,10 @@
     border-radius: 20%; /* Rounds the corners of the container */
     
 }
+.container1:hover{
+    background-color: rgb(47, 47, 150);
+}
+
 
 /* Container for Image 2 */
 .container2 {
@@ -25,6 +29,11 @@
     border-radius: 20%; /* Rounds the corners of the container */
     box-shadow: 0 24px 8px rgba(0, 0, 0, 0.5);
 }
+.container2:hover{
+    background-color: rgb(216, 34, 155);
+}
+
+
 
 /* Container for Image 3 */
 .container3 {
@@ -39,6 +48,11 @@
     margin-left: 930px; /* Adjusts the container's position */
     border-radius: 20%; /* Rounds the corners of the container */
 }
+.container3:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+
 
 
 div img {
