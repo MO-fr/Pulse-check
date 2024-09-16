@@ -12,6 +12,11 @@
     
 }
 
+.container1:hover{
+    background-color: rgb(4, 77, 160);
+
+}
+ 
 /* Container for Image 2 */
 .container2 {
     display: flex;
@@ -26,6 +31,11 @@
     box-shadow: 0 24px 8px rgba(0, 0, 0, 0.5);
 }
 
+.container2:hover{
+    background-color: rgb(194, 11, 163);
+
+}
+
 /* Container for Image 3 */
 .container3 {
     display: flex;
@@ -38,6 +48,11 @@
     box-shadow: 0 30px 8px rgba(0, 0, 0, 0.5);
     margin-left: 930px; /* Adjusts the container's position */
     border-radius: 20%; /* Rounds the corners of the container */
+}
+
+.container3:hover{
+    background-color: rgb(248, 248, 247);
+
 }
 
 
