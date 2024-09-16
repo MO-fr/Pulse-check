@@ -41,9 +41,11 @@ This project showcases three iconic works of fiction that I and many others ador
     git clone https://github.com/your-username/fiction-showcase.git
     ```
 
-2. Open the `index.html` file in your browser.
+2. Open the `pulse.html` file in your browser.
 
 3. Explore the links and check out the individual pages by clicking the images.
+4. 
+5. WHEN RUNNING - start on the "pulse.html" page
 
 ## 📝 Credits
 
