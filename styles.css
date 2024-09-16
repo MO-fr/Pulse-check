@@ -1,0 +1,88 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    background-color: rgba(113, 19, 190, 0.808);
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header Styling */
+header h1 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header h5 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+}
+
+/* Main Grid Container */
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 20px; /* Space between grid items */
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f2f2f2; /* Light background color */
+    border-radius: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* Container for Image Styling */
+.container1, .container2, .container3 {
+    display: flex;
+    justify-content: center; /* Center image horizontally inside container */
+    align-items: center;
+    background-color: #fff; /* White background for images */
+    width: 100%; /* Full width of the grid item */
+    height: 450px; /* Height of the container */
+    border-radius: 15px;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Hover Effects */
+.container1:hover, .container2:hover, .container3:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 30px 50px rgba(0, 0, 0, 0.5);
+}
+
+/* Image Styling */
+.container img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.container img:hover {
+    transform: scale(1.05);
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+footer p {
+    margin-top: 10px;
+}
