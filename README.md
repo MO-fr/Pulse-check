@@ -38,7 +38,7 @@ This project showcases three iconic works of fiction that I and many others ador
 1. Clone the repository using the following command:
 
     ```bash
-    git clone https://github.com/your-username/fiction-showcase.git
+    git clone https://github.com/MO-fr/fiction-showcase.git
     ```
 
 2. Open the `pulse.html` file in your browser.
