@@ -11,6 +11,51 @@
     border-radius: 20%; /* Rounds the corners of the container */
 }
 
+.guts-title{
+    margin-left: 100px;
+}
+
+.back-button:hover{
+    background-color: #0ada2d; /* Change to a lighter green */
+    transform: scale(1.1); /* Slightly enlarges the button */
+}
+
+.back-button{
+    margin-left: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px; /* Adjust font size */
+    padding: 12px 24px;
+    background-color: silver; /* Green color */
+    color: #000000;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+.watch-button:hover{
+    background-color: #0ada2d; /* Change to a lighter green */
+    transform: scale(1.1); /* Slightly enlarges the button */
+}
+
+.watch-button{
+    margin-left: 13px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px; /* Adjust font size */
+    padding: 12px 24px;
+    background-color: silver; /* Green color */
+    color: #000000;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+
 img {
     height: 400px;
     width: 260px;
@@ -24,7 +69,6 @@ img {
     margin-left: 500px; /* Optional: adjust as needed */
     margin-top: -480px; /* Optional: adjust as needed */
     background-color: #2b021b; /* Set background color for the container */
-    border: 20px solid #c95b5b; /* Add a border to the container */
     border-radius: 20%;
     box-shadow:0 20px 8px rgba(45, 45, 45, 0.5);
 }

@@ -11,6 +11,50 @@
     border-radius: 20%; /* Rounds the corners of the container */
 }
 
+.thorf-title{
+    margin-left: 50px;
+}
+
+.back-button:hover{
+    background-color: #0ada2d; /* Change to a lighter green */
+    transform: scale(1.1); /* Slightly enlarges the button */
+}
+
+.back-button{
+    margin-left: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px; /* Adjust font size */
+    padding: 12px 24px;
+    background-color: #d80c72; /* Green color */
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.watch-button:hover{
+    background-color: #0ada2d; /* Change to a lighter green */
+    transform: scale(1.1); /* Slightly enlarges the button */
+}
+
+.watch-button{
+    margin-left: 13px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px; /* Adjust font size */
+    padding: 12px 24px;
+    background-color: #d80c72; /* Green color */
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+
 img {
     height: 400px;
     width: 260px;
