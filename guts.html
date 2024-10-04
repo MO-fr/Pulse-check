@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hajime No Ippo</title>
     <link rel="stylesheet" href="pulse.css">
+    <script defer src="pulse.js"></script>
 </head>
 <body style="background-color:rgb(88, 37, 122);">
 
@@ -18,11 +19,15 @@
         <h1 style="font-family: 'Rockwell', serif;">Berserk</h1>
     </div>
     <!-- Image -->
-    <div class="containerguts">
+    <div class="containerguts" id="guts-id">
         <img src="https://i.pinimg.com/564x/34/14/02/3414021875b60371daf93b6c29acbd01.jpg" alt="Image 1">
     </div>
 
-    <div class="par-container">
+    <button class="hide-button3" onclick="hideMangacover('guts-id')">Hide</button>
+    <button class="unhide-button3" onclick="unhideMangacover('guts-id')">Unhide</button>
+
+
+    <div class="par-container3">
         <p class="vertical-text" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">
            I think we all know what Berserk is, I don't think i have to harp on how good it is.
            One of the highest regarded manga of all time and adored my millions, the story, the characters, and ART!! all just perfect....
@@ -36,12 +41,51 @@
     </div>
 
     <div style="margin-top: -80px; text-align: center;"></div>
-        <a href="pulse.html">
+        <a href="index.html">
             <button class="back-button-guts">
                 Go back to home
             </button>
         </a>
     </div>
+
+
+    <!-- Like button & dislike button  -->
+    <section class="button-grid2">
+        <button class="like-up3" id="like-button3">
+            <img src="https://cdn-icons-png.freepik.com/512/6619/6619136.png?fd=1&filename=thumbs-up_6619136.png" 
+            alt="Like" class="button-icon-guts">
+        </button>
+
+        <button class="dislike-up3" id="dislike-button3">
+            <img src="https://cdn-icons-png.freepik.com/512/3329/3329332.png?fd=1&filename=dislike_3329332.png" 
+            alt="Dislike" class="button-icon-gutss">
+        </button>
+   </section>
+
+    <section class="comment-grid3">Comment Section
+        <textarea id="comment-text-area3" placeholder="Leave any comments here"></textarea>
+        <button id="comment-button3">Enter</button>
+    </section>
+
+    <section>
+        <button id="feedbackButton3">Give Feedback</button>
+        <div id="feedbackFormSection3" class="feedback-form-section3" style="display: none;">
+            <h2>Feedback Form</h2>
+            <form id="feedbackForm3">
+                <label for="feedback3">Your Feedback:</label>
+                <textarea id="feedback3" rows="4" required></textarea>
+                
+                <label for="feedbackName2">Your Name:</label>
+                <input type="text3" id="feedbackName2">
+                
+                <label for="feedbackEmail2">Your Email:</label>
+                <input type="email3" id="feedbackEmail2">
+        
+                <button class="submit-button3">Submit Feedback</button>
+            </form>
+            <p id="feedbackResponse3"></p>
+        </div>
+    </section>
 
 </body>
 </html>

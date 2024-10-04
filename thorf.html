@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vinland Saga</title>
     <link rel="stylesheet" href="pulse.css">
+    
 </head>
 <body style="background-color:rgba(163, 20, 120, 0.89);">
 
@@ -19,11 +20,16 @@
         </div>
 
     <!-- Image -->
-    <div class="containerthorf">
+    
+
+    <div class="containerthorf" id="thorf-id">
         <img src="https://i.pinimg.com/564x/61/db/80/61db8026dd40b37de096a60c6afb80e9.jpg" alt="Image 1">
     </div>
+    
+    <button class="hide-button2" onclick="hideMangacover('thorf-id')">Hide</button>
+    <button class="unhide-button2" onclick="unhideMangacover('thorf-id')">Unhide</button>
 
-    <div class="par-container">
+    <div class="par-container2">
         <p class="vertical-text" style="font-family: 'Impact', sans-serif;">
            This manga is quite a roller coaster to say the least. I loved experinceing Thorfins tragic story and seeing him rise despite the misfortune his life brought, 
            he genuinely felt like a real person and his enteractions with rival Askaland made added 
@@ -36,12 +42,58 @@
     </div>
 
     <div style="margin-top: -80px;">
-        <a href="pulse.html">
+        <a href="index.html">
             <button class ="back-button-thorf">
                 Go back to home
             </button>
         </a>
     </div>
+
+
+
+    <script defer src="pulse.js"></script>
+
+    <!-- Like button & dislike button  -->
+    <section class="button-grid2">
+        <button class="like-up2" id="like-button2">
+            <img src="https://cdn-icons-png.freepik.com/512/6619/6619136.png?fd=1&filename=thumbs-up_6619136.png" 
+            alt="Like" class="button-icon-ippo">
+        </button>
+
+        <button class="dislike-up2" id="dislike-button2">
+            <img src="https://cdn-icons-png.freepik.com/512/3329/3329332.png?fd=1&filename=dislike_3329332.png" 
+            alt="Dislike" class="button-icon-ippoo">
+        </button>
+   </section>
+
+    <!-- Button to hide the player card -->
+    
+    <section class="comment-grid2">Comment Section
+        <textarea id="comment-text-area2" placeholder="Leave any comments here"></textarea>
+        <button id="comment-button2">Enter</button>
+    </section>
+
+    <section>
+        <button id="feedbackButton2">Give Feedback</button>
+        <div id="feedbackFormSection2" class="feedback-form-section2" style="display: none;">
+            <h2>Feedback Form</h2>
+            <form id="feedbackForm2">
+                <label for="feedback2">Your Feedback:</label>
+                <textarea id="feedback2" rows="4" required></textarea>
+                
+                <label for="feedbackName2">Your Name:</label>
+                <input type="text2" id="feedbackName2">
+                
+                <label for="feedbackEmail2">Your Email:</label>
+                <input type="email2" id="feedbackEmail2">
+        
+                <button class="submit-button2">Submit Feedback</button>
+            </form>
+            <p id="feedbackResponse2"></p>
+        </div>
+    </section>
+
+        
 
 </body>
 </html>
