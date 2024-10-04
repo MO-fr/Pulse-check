@@ -1,5 +1,11 @@
 //////////////////////////////Java For ippo page/////////////////////////////////////////////////////
-if (window.location.href === "http://127.0.0.1:5501/ippo.html"){
+
+
+let url = "ippo.html";
+let result = text.includes("ippo.html");
+
+// get the url of the window, check to see if it contains the HTML page 
+if (window.location.href === result || window.location.href === result){
     
 // Show feedback form when the feedback button is clicked
 document.getElementById('feedbackButton').addEventListener('click', function() {
@@ -34,7 +40,9 @@ const likeButton = document.getElementById("like-button");
 const dislikeButton = document.getElementById("dislike-button");
 
 // Add event listeners to the buttons
-likeButton.addEventListener("click", function() {
+likeButton.addEventListener("click", function(evnt) {
+
+    console.log("like clicked", evnt);
     // Toggle 'active-like' class on like button and remove active class from dislike button
     likeButton.classList.toggle("green-like"); //This here connects to the "like-up" class and turns the button green when clicked
     dislikeButton.classList.remove("red-dislike"); // this removes the red on the dislike if green is active

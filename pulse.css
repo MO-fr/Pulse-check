@@ -33,7 +33,7 @@
 
 
 .right-img{
-    
+
     margin-right: 10%;
     width: 470px;
     height: 800px;
@@ -131,7 +131,7 @@
     align-items: center;
     width: 19%; /* Container width */
     box-shadow: 0 20px 8px rgba(45, 45, 45, 0.5);
-    background-color: #da1313; /* Background color */
+    /* background-color: #da1313; Background color */
     padding: 20px; /* Adds padding inside the container */
     margin-left: 13px; /* Adjusts the container's position */
     border-radius: 20%; /* Rounds the corners of the container */
