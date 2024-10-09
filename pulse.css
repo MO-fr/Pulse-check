@@ -88,10 +88,6 @@ div img {
     border-radius: 20%; /* Rounds the corners of the container */
 }
 
-.ippo-title{
-    margin-left: 29px;
-}
-
 .ippo-button:hover{
     background-color: #0ada2d; /* Change to a lighter green */
     transform: scale(1.1); /* Slightly enlarges the button */
@@ -99,7 +95,8 @@ div img {
 
 .ippo-title{
     position: relative;
-    left: 496px;
+    left: 510px;
+    bottom: 30px;
 }
 
 .slider-arrow{
@@ -170,15 +167,21 @@ img {
 }
 
 .par-container {
-    position: relative; /* This ensures the vertical text is positioned relative to this container */
+    position: absolute; /* This ensures the vertical text is positioned relative to this container */
     width: 479px; /* Set the width of the container */
     height: 500px; /* Set the height of the container */
-    margin-left: 500px; /* Optional: adjust as needed */
-    margin-top: -480px; /* Optional: adjust as needed */
+    left: 420px; /* Optional: adjust as needed */
+    top: 100px; /* Optional: adjust as needed */
     background-color: #db0a0a; /* Set background color for the container */
     border: 1px solid #000; /* Add a border to the container */
     border-radius: 20%;
     box-shadow:0 20px 8px rgba(45, 45, 45, 0.5);
+}
+
+.par-container:hover{
+   overflow: hidden;
+   width: 0px;
+   z-index: 1px;
 }
 
 .vertical-text {
@@ -196,8 +199,7 @@ img {
 
 .like-up, .dislike-up {
     position: relative;
-    top: -300px;
-    
+    top: 400px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 18px; /* Adjust font size */
     padding: 10px 20px;
