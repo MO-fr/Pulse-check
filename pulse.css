@@ -1,11 +1,66 @@
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    justify-content: center; /* centers items horizontally */
+    align-items: center; 
+}
+
+.grid-item {
+
+    /* border: 1xp solid red; */
+    /* Background color for Image 1 container */
+    height: auto; 
+    width: auto; 
+
+
+}
+
+.grid-item > img  {
+    opacity: 30%;
+    width: 80%;
+    height: 70%;
+    box-shadow: 0 20px 8px rgba(45, 45, 45, 0.5);
+
+    /* Background color for Image 1 container */
+    background-color: #da1313; 
+    padding: 20px; /* Adds padding inside the container */
+    /* margin-left: 13px; */
+    border-radius: 5%; /* Rounds the corners of the container */ 
+}
+
+
+
+.right-img{
+
+    margin-right: 10%;
+    width: 470px;
+    height: 800px;
+
+}
+
+.left-img{
+    width: 470px;
+    height: 800px;
+    
+}
+
+.middle-img {
+    width: 470px;
+    height: 800px;
+}
+
+
 /* Container for Image 1 */ /***************** MAIN HTML PAGE ****************************/
 
-.container1 {
+/* .container1 {
     display: flex;
-    justify-content: center; /* Center horizontally */
+    justify-content: center; /* Center horizontally 
     align-items: center;
-    width: 19%; /* Container width */
+    width: 19%; /* Container width 
     box-shadow: 0 20px 8px rgba(45, 45, 45, 0.5);
+
     background-color: #da1313; /* Background color for Image 1 container */
     padding: 20px; /* Adds padding inside the container */
     margin-left: 13px; /* Adjusts the container's position */
@@ -14,8 +69,8 @@
 }
 .container1:hover{
     background-color: rgb(47, 47, 150);
-    transform: scale(1.1); /* Slightly enlarges the button */
-}
+    transform: scale(1.1); /* Slightly enlarges the button 
+} */
 
 
 /* Container for Image 2 */
@@ -66,12 +121,14 @@
     left: 18px;
 }
 
-div img {
+/* div img {
     height: 400px;
     width: 260px;
     border-radius: 60px; 
-    display: inline;
-}
+    display: inline;    
+} */
+
+
 /********************************************* CSS FOR IPPO *************************************************/
 
 /* Container for Image */
@@ -81,7 +138,7 @@ div img {
     align-items: center;
     width: 19%; /* Container width */
     box-shadow: 0 20px 8px rgba(45, 45, 45, 0.5);
-    background-color: #da1313; /* Background color */
+    /* background-color: #da1313; Background color */
     padding: 20px; /* Adds padding inside the container */
     position: relative;
     left: 500px;
@@ -163,11 +220,11 @@ div img {
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-img {
+/* img {
     height: 400px;
     width: 260px;
     border-radius: 60px;
-}
+} */
 
 .par-container {
     position: relative; /* This ensures the vertical text is positioned relative to this container */
@@ -451,11 +508,11 @@ img {
 
 
 
-img {
+/* img {
     height: 400px;
     width: 260px;
     border-radius: 60px;
-}
+} */
 
 .par-container2 {
     position: relative; /* This ensures the vertical text is positioned relative to this container */
@@ -729,11 +786,11 @@ img {
 
 
 
-img {
+/* img {
     height: 400px;
     width: 260px;
     border-radius: 60px;
-}
+} */
 
 .par-container3 {
     position: relative; /* This ensures the vertical text is positioned relative to this container */
