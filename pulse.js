@@ -6,6 +6,7 @@ let result = text.includes("ippo.html");
 
 // get the url of the window, check to see if it contains the HTML page 
 if (window.location.href === result || window.location.href === result){
+
     
 // Show feedback form when the feedback button is clicked
 document.getElementById('feedbackButton').addEventListener('click', function() {
@@ -72,8 +73,8 @@ function unhideMangacover(playerId) {
 
 }
 
- if (window.location.href === "http://127.0.0.1:5501/thorf.html"){
-///////////////////////////////////Java for Thorf////////////////////////////////////////////////////////
+ if (window.location.href === "http://127.0.0.1:5500/thorf.html"){
+///////////////////////////////////Javascript for Thorf////////////////////////////////////////////////////////
 
 const likeButton2 = document.getElementById("like-button2");
 const dislikeButton2 = document.getElementById("dislike-button2");
@@ -134,8 +135,8 @@ document.getElementById("comment-button2").addEventListener("click", () => {
 
 
 
-////////////////////////////////////////Java for guts////////////////////////////////////////////////////
- if (window.location.href === "http://127.0.0.1:5501/guts.html"){
+////////////////////////////////////////Javascript for guts////////////////////////////////////////////////////
+ if (window.location.href === "http://127.0.0.1:5500/guts.html"){
 
 const likeButton3 = document.getElementById("like-button3");
 const dislikeButton3 = document.getElementById("dislike-button3");
