@@ -97,10 +97,15 @@ div img {
     transform: scale(1.1); /* Slightly enlarges the button */
 }
 
+.ippo-title{
+    position: relative;
+    left: 496px;
+}
+
 .slider-arrow{
     position: relative;
     font-family: monospace;
-    left: 20px;
+    left: 26px;
     font-size: 30px;
     font-weight: bold;
     background-color: #da1313;
@@ -108,10 +113,6 @@ div img {
     border-radius: 20px;
 }
 
-.ippo-title{
-    position: relative;
-    left: 496px;
-}
 
 
 .slider-arrow2{
@@ -120,7 +121,7 @@ div img {
     font-family: monospace;
     font-size: 30px;
     top: 40px;
-    right: -3px;
+    right: -10px;
     font-weight: bold;
     background-color: #da1313;
     color: white;
@@ -383,7 +384,7 @@ img {
 .hide-button, .unhide-button{
     position: relative;
     top: 14px;
-    left: 106px;
+    left: 600px;
     border-radius: 15px;
     background-color: #ec1414;
     color: white;

@@ -1,5 +1,5 @@
 //////////////////////////////Javascript For ippo page/////////////////////////////////////////////////////
-if (window.location.href === "http://127.0.0.1:5501/ippo.html"){
+if (window.location.href === "http://127.0.0.1:5500/ippo.html"){
     
 // Show feedback form when the feedback button is clicked
 document.getElementById('feedbackButton').addEventListener('click', function() {
@@ -64,7 +64,7 @@ function unhideMangacover(playerId) {
 
 }
 
- if (window.location.href === "http://127.0.0.1:5501/thorf.html"){
+ if (window.location.href === "http://127.0.0.1:5500/thorf.html"){
 ///////////////////////////////////Javascript for Thorf////////////////////////////////////////////////////////
 
 const likeButton2 = document.getElementById("like-button2");
@@ -127,7 +127,7 @@ document.getElementById("comment-button2").addEventListener("click", () => {
 
 
 ////////////////////////////////////////Javascript for guts////////////////////////////////////////////////////
- if (window.location.href === "http://127.0.0.1:5501/guts.html"){
+ if (window.location.href === "http://127.0.0.1:5500/guts.html"){
 
 const likeButton3 = document.getElementById("like-button3");
 const dislikeButton3 = document.getElementById("dislike-button3");
